@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goce's Retro Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Courier New', monospace;
+      background-color: #0e1a2b;
+      color: #dff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .button, .box {
+      border: 3px solid #1ef9f9;
+      padding: 1rem;
+      margin: 1rem;
+      background-color: #12263a;
+      box-shadow: 4px 4px 0 #0af;
+      text-align: center;
+      width: 300px;
+    }
+
+    .button {
+      font-size: 1.5rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #1e3f5a;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    h1, h2 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-icons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      background-color: #1ef9f9;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="button">START GAME</div>
+
+  <div class="section">
+    <div class="box">
+      <h2>ABOUT ME</h2>
+      <p>I am Goce Stojanoski. I'm learning programming and building my skills in web development.</p>
+    </div>
+
+    <div class="box">
+      <h2>PROJECTS</h2>
+      <p>I'm currently working on projects to improve my HTML and CSS knowledge.</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>CONTACT</h2>
+    <div class="contact-icons">
+      <div class="icon"></div>
+      <div class="icon"></div>
+      <div class="icon"></div>
+      <div class="icon"></div>
+    </div>
+  </div>
+</body>
+</html>
