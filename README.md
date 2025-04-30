@@ -16,8 +16,3 @@ Welcome to my retro-themed portfolio site! This project showcases my skills in w
 - **CSS**: Used for styling, including creating the retro look with neon colors and pixel-art-style borders.
 - **No JavaScript**: The project focuses on HTML and CSS to keep it simple and beginner-friendly.
 
-## Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/retro-portfolio.git
